@@ -39,6 +39,7 @@ class Burrito {
       this.protein = newProtein
     }
   }
+
   addTopping(newTopping) {
     if (typeof newTopping === 'string') {
       this.toppings = this.toppings.concat(newTopping);
@@ -50,12 +51,14 @@ var carne = new Burrito('steak', 'white rice',['extra guacamole', 'beans', 'sour
 
 var chorizo = new Burrito('chorizo', 'brown rice', ['extra guacamole', 'sour cream', 'cheese']);
 
-var pollo = new Burrito('chicken', 'white rice', ['white rice', 'Nothing else, please! Just chicken and rice: on a strict diet!']);
+var pollo = new Burrito('chicken', 'white rice', ['white rice', 'Nothing else, please! Just meat and rice: on a strict diet!']);
 
 pollo.changeProtein('fish');
+
 console.log(pollo);
 
 carne.addTopping('sprinkles');
 chorizo.addTopping('cream cheese frosting')
+
 console.log(carne);
 console.log(chorizo);

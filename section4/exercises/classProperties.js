@@ -151,7 +151,6 @@ class Shirts {
     this.Size = size;
     this.Color = color;
     this.inStock = inStock;
-
   }
 }
 

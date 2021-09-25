@@ -29,7 +29,7 @@ printName();
 
 function sayHello() {
   console.log("Oh, Hello!");
-}
+};
 
 sayHello();
 sayHello();
@@ -44,7 +44,7 @@ sayHello();
 
 function greetMe(name) {
   console.log("Oh, hi " + name +"!" );
-}
+};
 
 greetMe("Mark");
 greetMe("Marcus");
@@ -56,7 +56,7 @@ greetMe("Markolomew");
 
 function sum(num1,num2) {
   console.log(num1 + num2);
-}
+};
 
 sum(8,1);
 sum(23,2);

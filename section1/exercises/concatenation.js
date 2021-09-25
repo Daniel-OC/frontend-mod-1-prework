@@ -31,6 +31,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!");
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
+
 console.log("The " + speedy + " jumped over the " + slowPoke);
 
 // YOU DO:
@@ -48,10 +49,10 @@ console.log("In a predictable result, the " + slowPoke + " beat the " +speedy + 
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
 var cat = "Garfield";
-var feeling = " hates ";
+var emotion = " hates ";
 var dayOfTheWeek = "Mondays";
 
-console.log(cat + feeling +dayOfTheWeek + "!")
+console.log(cat + emotion +dayOfTheWeek + "!")
 
 //-------------------
 // FINAL CHECK

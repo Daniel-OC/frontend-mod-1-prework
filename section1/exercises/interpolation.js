@@ -24,7 +24,7 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
 
-"It will be a string that reads 'My zoo has 7 unicorns'. Once again, due I think to type coercion"
+// It will be a string that reads 'My zoo has 7 unicorns'. Once again, due I think to type coercion
 
 
 // YOU DO:
@@ -43,6 +43,7 @@ console.log(sentence);
 slowPoke = "tortoise";
 speedy = "hare";
 sentence = `In a predictable result, the ${slowPoke} beat the ${speedy}!`;
+
 console.log(sentence);
 
 // YOU DO:
@@ -53,6 +54,7 @@ var cat = "Garfield";
 var emotion = "loves";
 var food = "lasagna";
 sentence = `${cat} ${emotion} ${food}!`;
+
 console.log(sentence);
 
 //-------------------

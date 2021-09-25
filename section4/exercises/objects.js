@@ -48,7 +48,7 @@ console.log(zooAnimals);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
 
-zooAnimals.penguins = 305;
+zooAnimals.penguins = 36;
 
 console.log(zooAnimals);
 
@@ -76,7 +76,7 @@ var email = {
   sender: "danieloconnell.maker@gmail.com",
   subject: "Too much fish sauce in this recipe!!",
   body: "Hello, my name is Daniel. Your recipe for Swedish Meatballs is bad. FAR too much fish sauce. Consider googling 'swedish meatballs' and trying again! Disgusted, Daniel O'Connell",
-  timeSent: "10/11/2021 3:49am PST",
+  timeSent: "10/11/2021 3:29am PST",
   attachments: "None"
 
 }
@@ -136,8 +136,8 @@ good to have some exposure before going into Mod 1.
 var emails = [
   {
     sender: "danieloconnell.maker@gmail.com",
-    subject: "Too much fish sauce in this recipe!!",
-    body: "Hello, my name is Daniel. Your recipe for Swedish Meatballs is bad. FAR too much fish sauce. Consider googling 'swedish meatballs' and trying again! Disgusted, Daniel O'Connell",
+    subject: "There is WAY too much fish sauce in this recipe!!",
+    body: "Hello, my name is Daniel. I reached out earlier but the email must not have sent. Your recipe for Swedish Meatballs is bad. WAY too much fish sauce. Consider googling 'swedish meatballs' and trying again! Disgusted, Daniel O'Connell",
     timeSent: "10/11/2021 3:49am PST",
     attachments: "None"
   },

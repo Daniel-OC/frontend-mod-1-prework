@@ -12,9 +12,9 @@ Make sure to run the file with node in your command line.
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
   // than 'coat'.
 
-var weather = 'sunny';
+//var weather = 'sunny';
 // var weather = 'icy';
-// var weather = 'rainy';
+var weather = 'rainy';
 // var weather = 'sunny';
 // While working through this example, I would toggle which variable declaration is
   // commented in/out and run the program in node several times to observe the output.
@@ -45,12 +45,12 @@ var dogAge = 11;
 // Write your conditional here
 
 if (dogAge <= 2) {
-  console.log("This here dog is a puppy!");
+  console.log("This dog is a tiny little baby puppy!");
 } else if (dogAge >= 10) {
   console.log("This dog is an elder, and you will respect her as such!");
 } else {
-  console.log("This dog is an adult, how dull!🥱 🥱 ");
-}
+  console.log("This dog is a boring old adult.🥱 🥱 ");
+};
 
 
 /*
@@ -98,7 +98,7 @@ var hasSauce = true;
 if (cupsOfFlour >= 2 && hasSauce == true) {
     console.log("Mama-mia, it's pizza time!");
   } else   {
-      console.log("I cannot make pizza");
+      console.log("I cannot make-a da pizza");
     }
 
 

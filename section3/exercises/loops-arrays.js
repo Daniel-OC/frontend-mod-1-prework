@@ -22,7 +22,7 @@ var petstore = ["hamster", 'chinchilla', 'ferret', 'puppy', 'kitten']
 
 for (var i = 0; i < petstore.length; i++) {
   console.log("The " + petstore[i] + " is awesome!");
-}
+};
 
 
 
@@ -33,7 +33,7 @@ var foods = ['tortillas', 'cheese', 'ground beef', 'pico de gallo', 'shredded le
 
 for (var i = 0; i < foods.length; i++) {
   console.log("Add "+ foods[i] + " to shopping list");
-}
+};
 
 
 // YOU DO: Create an array of numbers and then iterate over that array to log double
@@ -43,7 +43,7 @@ var numbers = [1,2,3,4]
 
 for (var i = 0; i < numbers.length; i++) {
   console.log(numbers[i] + " doubled is " + numbers[i]*2);
-}
+};
 
 
 // YOU DO: Using the array of names below, print out "Happy Birthday <name>" for
@@ -52,7 +52,7 @@ var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"
 
 for (var i = 2; i < names.length; i++) {
   console.log("Happy Birthday " + names[i]);
-}
+};
 
 // THE FINAL YOU DO: Using the array of ages below, print out a statement for each age.
 // The age should determine which message is printed out:
@@ -72,4 +72,4 @@ for (var i = 0; i < ages.length; i++){
   } else {
     console.log("Make sure you get out and vote!");
   }
-}
+};
